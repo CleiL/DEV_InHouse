@@ -1,0 +1,15 @@
+
+/*function concatena (arrayA, arrayB){
+    const novoArray = [...arrayA, ...arrayB];
+    return novoArray;
+};
+
+function concatena (arrayA, arrayB){
+    return [...arrayA, ...arrayB];
+}; */
+
+const concatena = (arrayA, arrayB) => [...arrayA, ...arrayB];
+
+const novoArray = concatena([1, 2, 3], [4, 5, 6]);
+console.log(novoArray);
+// novo array deve ser [1, 2, 3, 4, 5, 6]

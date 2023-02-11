@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Definindo uma cor ao body */
+body{ 
+    background-color: yellow;
+}
+
+/* Cabçalho*/
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(0, 255, 106);
+}
+header, nav, nav ul{
+    width: 100%;
+    height:50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    color: black;
+    font-size: larger;
+}
+header nav ul li a:hover{
+    color: blue;
+    background-color: rgb(193, 169, 216);
+    transition:all 300ms;
+    border-radius: 5px;
+}
+
+/* section titulo*/
+#hum{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 480px;
+    background-image: url(../img/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+section .titulo h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: brown;
+    text-transform: uppercase;
+}
+
+/* barra */
+.barra{
+    margin: 10px;
+    color: black;
+}
+
+/* section paragrafo */
+#dois,
+#quatro{
+    display: flex;
+    justify-content: center;
+}
+.paragrafo{
+    font-size: 14px;
+}
+
+/* botão */
+#tres{
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 10px;
+    border: solid 2px black;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+/* section video */
+#quatro{
+    margin: 20px;
+}
+/* imagens */
+.coluna{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* rodapé */
+footer{
+    width: 100%;
+    height:50px;
+    background-color: cadetblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rodape{
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevInTasks</title>
+    <link rel="icon" href="./assets/logo.svg" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async ></script>
+</head>
+<body>
+    <header class="header">
+        <img src="img/logo.svg" alt="logo DevInTasks"/>
+        <h1 class="title">DevInTasks</h1>
+    </header>
+    <main class="main">
+        <!-- Inicio do formulário -->
+        <section>
+            <form id="form-cadastro" class="form">
+                <h2 class="subtitle">Cadastre suas tarefas</h2>
+                <div class="row">
+                    <div class="column">
+                        <input class="input" id="titulo" title="nome da tarefa" type="text" placeholder="Digite o título da tarefa" required />
+                        <select title="select" required class="select" id="prioridade">
+                            <option disabled>Selecione a prioridade</option>
+                            <option value="0">Alta</option>
+                            <option value="1">Média</option>
+                            <option value="2">Baixa</option>
+                        </select>
+                    </div>
+                    <div class="column">
+                        <textarea title="textares" id="descricao" rows="5" placeholder="Digite a descrição da tarefa"></textarea>
+                    </div>  
+                </div>
+                <div class="form-actions">
+                    <button title="btn" class="button-secondary" type="reset">Limpar</button>
+                    <button title="btn1" class="button-primary" type="submit">Cadastrar</button>
+                </div>
+            </form>
+        </section>
+        <!-- Inicio do formulário -->
+        <!-- Inicio da busca-->
+        <section class="search">
+            <input id="input-busca" class="input-search" title="input-bar" type="text" placeholder="Digite o título da tarefa">
+            <button title="button" type="button" class="button-search" id="button-search"><img src="img/search.svg" alt="pesquisar"/></button>
+        </section>
+        <!-- Fim da busca-->
+        <!-- -->
+        <section class="list">
+            <ul id="lista" class="list">
+              <!--  <li class="list-item">
+                    <h3 class="subtitle text-center">Estudar Array</h3>
+                    <p class="text-center priority color-red">Alta</p>
+                    <p class="description">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                    </p>
+                    <div class="list-item-footer">
+                        <input title="check" class="checkbox" type="checkbox" name="" id="concluido">
+                    </div>
+                </li>
+                <li class="list-item">
+                    <h3 class="subtitle text-center">Estudar Objetos</h3>
+                    <p class="text-center priority color-yellow">Média</p>
+                    <p class="description">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                    </p>
+                    <div class="list-item-footer">
+                        <input title="check" class="checkbox" type="checkbox" name="" id="concluido">
+                    </div>
+                </li>
+                <li class="list-item">
+                    <h3 class="subtitle text-center">Estudar Funções</h3>
+                    <p class="text-center priority color-red">Alta</p>
+                    <p class="description">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                    </p>
+                    <div class="list-item-footer">
+                        <input title="check" class="checkbox" type="checkbox" name="" id="concluido">
+                    </div>
+                </li>
+                <li class="list-item">
+                    <h3 class="subtitle text-center">Estudar Kanbam</h3>
+                    <p class="text-center priority color-green">Baixa</p>
+                    <p class="description">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                    </p>
+                    <div class="list-item-footer">
+                        <input title="check" class="checkbox" type="checkbox" name="" id="concluido">
+                    </div>
+                </li> -->
+            </ul>
+        </section>
+        <!-- -->
+    </main>
+</body>
+</html>

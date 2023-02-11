@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevInBank</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
+</head>
+<body>
+    <header>
+        <a href="https://placeholder.com"><img src="https://via.placeholder.com/50"></a>
+        <h1>DevInBank</h1>
+    </header>
+    <main>
+        <form id="form-cadastro">
+            <div>
+                <label for="nome">Nome: </label><input placeholder="Digite seu nome" id="nome" required type="text">
+            </div>
+            <div>
+                <label for="cpf">CPF: </label><input id="cpf" placeholder="Digite seu CPF" required type="text">
+            </div>
+            <div>
+                <label for="celular">Celular: </label><input id="celular" placeholder="Digite seu número de telefone" required type="text">
+            </div>
+            <div>
+                <label for="senha">Senha: </label><input id="senha" placeholder="Digite sua senha" required type="password">
+            </div>
+            <div>
+                <label for="confirmacaoSenha">Senha: </label><input id="confirmacaoSenha" placeholder="Confirme sua senha" required type="password">
+            </div>
+            <div>
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+
+        <form id="form-operacao">
+            <div>
+                <label for="conta">Conta: </label><input required id="conta" type="number" placeholder="digite a conta">
+            </div>
+            <div>
+                <label for="operacao">Operacao</label>
+                <select name="operacao" id="operacao">
+                    <option value="saque">Saque</option>
+                    <option value="deposito">Deposito</option>
+                    <option value="saldo">consulta saque</option>
+                </select>
+                <div>
+                    <label for="valor">Valor: </label><input required id="valor" type="number" placeholder="digite o valor">
+                </div>
+                <div>
+                    <label for="senhaOperacao">Senha: </label><input required id="senhaOperacao" type="number" placeholder="digite a senha">
+                </div>
+            </div>
+            <div>
+                <button type="reset">Limpar</button>
+                <button type="submit">Confirmar</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>DevInBank</p>
+    </footer>
+</body>
+</html>
