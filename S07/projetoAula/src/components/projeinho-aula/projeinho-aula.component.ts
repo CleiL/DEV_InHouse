@@ -8,8 +8,13 @@ import { Component } from '@angular/core';
 export class ProjeinhoAulaComponent {
   
   public name: string = 'zebra'
+  public count: number = 0
   public counter: number = 0
   public disabled: boolean = true
   public imgSource: string = 'https://cdn.pixabay.com/photo/2023/01/31/05/59/zebra-7757193_640.jpg'
+
+  public increment() {
+    this.counter++;
+  }
 
 }

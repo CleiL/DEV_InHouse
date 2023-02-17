@@ -1,1 +1,12 @@
-<p>projeinho-aula works!</p>
+<H1>Eu sou uma {{name}}</H1>
+<div>
+    <button (click)="count = count +1" > Add +1 </button>
+    <h2>{{count}}</h2>
+</div>
+<div>
+    <button (click)="increment()" > Clique Add +1 </button>
+    <h3>{{counter}}</h3>    
+</div>
+<img src="{{imgSource}}" alt="imagem de uma zebra">
+
+<input title="campoDesativo" type="text" value="olá" [disabled]="disabled">
