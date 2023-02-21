@@ -1,3 +1,5 @@
+// Exercício - Convite de casamento
+
 // Caro Fulano(a)!
 
 // Você está convidado(a) para o casamento de Beltrano(a) e Ciclano(a), a ser realizado no dia 05/12/2022, às 16 horas.
@@ -7,7 +9,7 @@
 // Atenciosamente,
 // os noivo(a)s
 
-var convidado = 'Thais';
+var convidado = 'CLei';
 var noivos = 'João e Maria';
 var dataFormatada = '05/12/2022, às 16 horas';
 
@@ -29,10 +31,10 @@ console.log(texto);
 console.log(texto2);
 
 // String
-var nome = 'teste';
+var nome = 'Clei';
 
 // Number
-var idade = 28;
+var idade = 30;
 var decimal = 12.6;
 var negativo = -3;
 
@@ -53,13 +55,13 @@ console.log(indefinido);
 
 //Object
 var pessoa = {
-  nome: 'Thais',
-  idade: 28,
+  nome: 'Clei',
+  idade: 30,
   ativo: true,
   endereco: {
-    rua: 'Avenida blábláblá',
-    numero: 123,
-    bairro: 'Centro',
+    rua: 'Dario Veloso',
+    numero: 90,
+    bairro: 'Pirituba',
   },
 };
 console.log(pessoa);
@@ -67,7 +69,7 @@ console.log(pessoa.nome);
 console.log(pessoa['idade']);
 console.log(pessoa.endereco.rua);
 
-pessoa.nome = 'Willian';
+pessoa.nome = 'Pamela';
 console.log(pessoa.nome);
 
 // Array
@@ -78,16 +80,16 @@ console.log(lista[0]);
 console.log(lista[4]);
 
 var listaPessoas = [
-  { nome: 'Thais', idade: 28 },
-  { nome: 'Ana', idade: 20 },
+  { nome: 'Pamela', idade: 28 },
+  { nome: 'Sophia', idade: 01 },
 ];
 
-console.table(listaPessoas[0]);
+console.table(listaPessoas[1]);
 console.log(listaPessoas[0].nome);
 
 // Typeof
 
-var texto = 'aaaaa';
+var texto = 'olá JS';
 var numero = 123;
 var boleano = false;
 var objeto = { nome: 'teste' };
@@ -111,6 +113,7 @@ console.log(19 % 2);
 // Atribuição
 var soma = 1; // Atribuição simples
 console.log(soma);
+
 soma += 20; // Atribuição com soma
 // soma = soma + 20
 console.log(soma);
@@ -141,8 +144,8 @@ var teste = '11';
 
 console.log(!teste);
 
-var nome = 'Thais';
-var apelido = '';
+var nome = 'Clei Lisboa';
+var apelido = 'não possui';
 
 var chamarComo = apelido || nome;
 console.log(chamarComo);

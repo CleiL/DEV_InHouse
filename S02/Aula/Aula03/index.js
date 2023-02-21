@@ -1,4 +1,4 @@
-var isAutenticado = true;
+var isAutenticado = false;
 if (!isAutenticado) {
   console.log('não está autenticado');
 }
@@ -17,7 +17,15 @@ if (media > 7) {
   console.log('Não atingiu a média!');
 }
 
-var produto = 'caneta';
+// switch
+    // switch trata exatamente dessa situação. A palavra-chave switch é seguida de uma expressão
+    // entre parênteses e de um bloco de código entre chaves:
+    //switch(expressão) {
+    // instruções
+    //}
+
+
+var produto = 'copo';
 switch (produto) {
   case 'copo':
   case 'caneca':
@@ -25,7 +33,7 @@ switch (produto) {
     break;
   case 'caneta':
     console.log('1,50');
-    break;
+    break; //pular ou escapar par o default, não encontrado
   default:
     console.log('Produto não encontrado');
 }
