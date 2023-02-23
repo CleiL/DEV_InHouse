@@ -1,18 +1,21 @@
+;
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProjeinhoAulaComponent } from "../components/projeinho-aula/projeinho-aula.component";
-import {}
+import { ProjetinhoComponent } from 'src/components/projetinho/projetinho.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ProjeinhoAulaComponent
+    ProjeinhoAulaComponent,
+    ProjetinhoComponent
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
