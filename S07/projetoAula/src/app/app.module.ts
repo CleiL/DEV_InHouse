@@ -6,11 +6,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProjeinhoAulaComponent } from "../components/projeinho-aula/projeinho-aula.component";
 import { ProjetinhoComponent } from 'src/components/projetinho/projetinho.component';
+import { ListarAlunosService } from './listar-alunos.service';
+import { ConsumindoServicoComponent } from './consumindo-servico/consumindo-servico.component';
 @NgModule({
   declarations: [
     AppComponent,
     ProjeinhoAulaComponent,
-    ProjetinhoComponent
+    ProjetinhoComponent,
+    ConsumindoServicoComponent,
+
 
   ],
   imports: [
