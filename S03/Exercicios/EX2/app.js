@@ -43,4 +43,18 @@ btnAcao.addEventListener('click', () => {
     console.log(msg);
 
 });
+/*------------------------------------------------------------------------------------*/
+// Refatoração
 
+const entradaNome = document.getElementById('nome');
+const btnAcao = document.getElementById('btn-acao');
+const msg = document.getElementById('mensagem');
+
+const mensagemOla = nome => `Olá, ${nome}!`;
+
+btnAcao.addEventListener('click', () => {
+    const nome = entradaNome.value;
+    const mensagem = mensagemOla(nome);
+    console.log(mensagem);
+    msg.textContent = mensagem;
+});

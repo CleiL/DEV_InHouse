@@ -11,3 +11,15 @@ const temporizador = () => {
     }, 1000)
 };
 temporizador();
+/*---------------------------------------------------------------------------------*/
+// Refatoração
+const temporizador = () => {
+    const interval = setInterval(() => {
+        console.log(new Date().toLocaleTimeString('pt-BR'));
+    }, 1000);
+
+    setTimeout(() => clearInterval(interval), 1000);
+};
+
+temporizador();
+

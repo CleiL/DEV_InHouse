@@ -12,3 +12,17 @@ var numero = parseInt(prompt('Informe o número da tabuada.'));
     }
     alert(resultado);
   }
+
+  // código refatorado
+  const numero = parseInt(prompt('Informe o número da tabuada.'));
+
+  if (isNaN(numero)) {
+    alert('Número inválido');
+  } else {
+    let resultado = '';
+  
+    for (let i = 0; i <= 10; i++) {
+      resultado += `${numero} x ${i} = ${numero * i}\n`;
+    }
+    alert(resultado);
+  }

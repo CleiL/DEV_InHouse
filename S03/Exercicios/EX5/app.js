@@ -24,3 +24,12 @@ const somaTudo = (...somar) => {
 const resultado = somaTudo(1, 2, 3, 4);
 console.log(resultado);
 // resultado deve ser 10
+
+/*--------------------------------------------------*/
+// Refatorar
+const somaTudo = (...somar) => {
+    return somar.reduce((total, num) => total + num, 0);
+};
+
+const resultado = somaTudo(1, 2, 3, 4);
+console.log(resultado);

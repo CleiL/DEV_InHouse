@@ -16,3 +16,22 @@ async function processar() {
 }
 
 processar();
+
+/*-------------------------------------------------------------------------*/
+//Refatorar
+    const obterClienteNoBancoDeDados = async (idCliente) => {
+        const cliente = { nome: 'Bruce Wayne', id: idCliente };
+        return cliente;
+    }
+    
+    const processar = async () => {
+        try {
+        const cliente = await obterClienteNoBancoDeDados(7);
+        console.log(cliente);
+        } catch (error) {
+        console.error(error);
+        }
+    }
+    
+    processar();
+    

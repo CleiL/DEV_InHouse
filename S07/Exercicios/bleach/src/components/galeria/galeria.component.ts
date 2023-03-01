@@ -25,3 +25,5 @@ export class GaleriaComponent {
   public ultima(){return this.fotos.length -1;}
 
 }
+
+

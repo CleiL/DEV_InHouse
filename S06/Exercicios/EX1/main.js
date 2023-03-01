@@ -8,3 +8,9 @@ function sleep(valor) {
 sleep('valor').then((res) => {
     console.log(res)
 })
+
+/*---------------------------------------------------*/
+//Refatoração
+const sleep = (valor) => new Promise(resolve => setTimeout(() => resolve(valor), 3000));
+
+sleep('valor').then(console.log);

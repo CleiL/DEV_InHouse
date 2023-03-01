@@ -74,3 +74,64 @@ window.addEventListener('load', async () => {
 });
 
 
+/*-----------------------------------------------------------*/
+//Extrai a função do manipulador de cliques para os botões anterior/próximo
+const handlePaginationClick = async (url) => {
+  const data = await obterPersonagens(url);
+  montaHtml(data);
+};
+
+const atualizaPaginacao = (info) => {
+  const anterior = document.getElementById('anterior');
+  const proximo = document.getElementById('proximo');
+
+  if (info.prev) {
+    anterior.onclick = () => handlePaginationClick(info.prev);
+    anterior.disabled = false;
+  } else {
+    anterior.disabled = true;
+  }
+
+  if (info.next) {
+    proximo.onclick = () => handlePaginationClick(info.next);
+    proximo.disabled = false;
+  } else {
+    proximo.disabled = true;
+  }
+};
+
+//Usa um literal de modelo para criar o elemento de imagem
+const montaHtml = (data) => {
+  lista.innerHTML = '';
+
+  data.results.forEach((element) => {
+    const item = document.createElement('li');
+    const titulo = document.createElement('h2');
+    const imagem = `<img src="${element.image}" />`;
+
+    titulo.innerText = element.name;
+
+    item.classList.add('itemLista');
+
+    item.innerHTML = `${imagem}<h2>${element.name}</h2>`;
+    lista.appendChild(item);
+  });
+
+  atualizaPaginacao(data.info);
+};
+
+//Extraia a lógica de busca em uma função separada
+const fetchData = async (url) => {
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+
+    return data;
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+const obterPersonagens = async (url = urlInicial) => {
+  return fetchData(url);
+};
