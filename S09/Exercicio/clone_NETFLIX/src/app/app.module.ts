@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './pages/home/home.component';
 import { CardComponent } from './components/card/card.component';
+import { SerieComponent } from './pages/serie/serie.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    CardComponent
+    CardComponent,
+    SerieComponent
   ],
   imports: [
     BrowserModule,
