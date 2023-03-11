@@ -1,7 +1,37 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { WithMenuComponent } from './layout/with-menu/with-menu.component';
+import { HomeComponent } from './pages/home/home.component';
+import { LoginComponent } from './pages/login/login.component';
+import { SerieComponent } from './pages/serie/serie.component';
+import { AuthguardGuard } from './security/guard/authguard.guard';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path:'login',
+    component:LoginComponent
+  },
+  {
+    path:'',
+    component:WithMenuComponent,
+    canActivate:[AuthguardGuard],
+    children:[
+      {
+        path:'',
+        redirectTo:'home',
+        pathMatch:'full'
+      },
+      {
+        path:"home",
+        component:HomeComponent
+      },
+      {
+        path:'serie/:id',
+        component:SerieComponent
+      }
+    ]
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
