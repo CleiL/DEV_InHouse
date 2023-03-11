@@ -1,1 +1,6 @@
-<p>card works!</p>
+<div class="card" (click)="navigateToSerie(serie.id)">
+    <img width="200"[src]="serie.poster" alt="posters">
+    <h5>{{ serie.name }}</h5>
+    <span>Synopsis:</span>
+    <p>{{serie.description}}</p>
+</div>

@@ -1,1 +1,53 @@
-<p>serie works!</p>
+<div class="fundo">
+    <div class="container">
+        <img width="500" [src]="serie.poster" alt="posters">
+        <h5>{{ serie.name }}</h5>
+        <span>Synopsis:</span>
+        <p>{{serie.description}}</p>
+    </div>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Episódio #1
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                    <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Episódio #2
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Aperiam ratione iure illo similique eos fuga quibusdam obcaecati porro, 
+                    at exercitationem quia veritatis quasi magnam adipisci accusamus fugit sapiente totam deserunt?
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Episódio #3
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Aperiam ratione iure illo similique eos fuga quibusdam obcaecati porro, 
+                    at exercitationem quia veritatis quasi magnam adipisci accusamus fugit sapiente totam deserunt?
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

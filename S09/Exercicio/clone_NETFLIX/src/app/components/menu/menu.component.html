@@ -1,1 +1,11 @@
-<p>menu works!</p>
+<nav class="navbar ">
+    <a routerLink="/home"><img src="assets/images/logo.png" width="100" height="100" alt="logo Netflix"></a>
+    <ul>
+        <li class="nav-item"><a routerLink="/home">Início</a></li>
+        <li class="nav-item"><a routerLink="/series">Séries</a></li>
+        <li class="nav-item"><a routerLink="#">Filmes</a></li>
+        <li class="nav-item"><a routerLink="#">Animes</a></li>
+        <li class="nav-item"><a routerLink="#">Favoritos</a></li>
+    </ul>
+    <div><button (click)="logout()" class="btn btn-danger" type="submit">logout</button></div>
+</nav>

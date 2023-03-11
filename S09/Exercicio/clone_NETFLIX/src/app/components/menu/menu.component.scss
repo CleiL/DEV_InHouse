@@ -1,0 +1,19 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+ul{
+    padding-top: 12px;
+    display: flex;
+    list-style: none;
+    letter-spacing: 2px;
+    gap: 6px;
+    font-size: 18px;
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
