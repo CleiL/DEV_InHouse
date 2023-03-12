@@ -1,0 +1,15 @@
+<div class="container">
+    <form [formGroup]="loginForm">
+        <h2>Login</h2>
+        <div class="form-floating mb-3">
+            <input formControlName="userEmail" type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input formControlName="userPassword" type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+            <label for="floatingPassword">Password</label>
+        </div>
+        <button (click)="onSubmit()" class="btn btn-primary btn-lg" type="submit">Login</button>
+        <a href="#">Esqueceu a senha ?</a>
+    </form>
+</div>
