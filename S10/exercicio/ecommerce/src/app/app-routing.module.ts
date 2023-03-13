@@ -3,30 +3,38 @@ import { RouterModule, Routes } from '@angular/router';
 import { FullComponent } from './layout/full/full.component';
 import { WrapperComponent } from './layout/wrapper/wrapper.component';
 import { LoginComponent } from './pages/login/login.component';
+import { CreateComponent } from './pages/products/create/create.component';
+import { ListComponent } from './pages/products/list/list.component';
 
 const routes: Routes = [
   {
-    path:'',
-    component: FullComponent,
+    path: '',
+    component: WrapperComponent,
     children: [
-
+      // {
+      //   path: '',
+      //   redirectTo: 'login',
+      //   pathMatch: 'full',
+      // },
+      {
+        path: 'login',
+        component: LoginComponent
+      }
     ]
   },
   {
-    path:'',
-    component: WrapperComponent,
-    children:[
+    path: 'products',
+    component: FullComponent,
+    children: [
       {
-        path:'',
-        redirectTo:'login',
-        pathMatch:'full'
+        path: 'list',
+        component: ListComponent
       },
       {
-        path:'login',
-        component:LoginComponent
+        path: 'add',
+        component: CreateComponent
       }
-
-    ]     
+    ]
   }
 ];
 

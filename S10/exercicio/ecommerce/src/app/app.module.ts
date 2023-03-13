@@ -11,6 +11,7 @@ import { MenuComponent } from './component/menu/menu.component';
 import { EmailPipe } from './comom/pipes/email.pipe';
 import { ListComponent } from './pages/products/list/list.component';
 import { CreateComponent } from './pages/products/create/create.component';
+import { SearchPipe } from './comom/pipes/search.pipe';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { CreateComponent } from './pages/products/create/create.component';
     EmailPipe,
     ListComponent,
     CreateComponent,
+    SearchPipe,
   ],
   imports: [
     BrowserModule,
@@ -31,7 +33,7 @@ import { CreateComponent } from './pages/products/create/create.component';
     ReactiveFormsModule,
     HttpClientModule
   ],
-  providers: [EmailPipe],
+  providers: [EmailPipe, SearchPipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

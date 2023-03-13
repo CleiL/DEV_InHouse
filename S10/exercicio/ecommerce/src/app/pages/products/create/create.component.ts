@@ -51,8 +51,6 @@ export class CreateComponent implements OnInit {
   }
 
   onSubmit() {
-    // TODO: make method to add product
-    // TODO: after added new product navigate to list
   }
 
 }
