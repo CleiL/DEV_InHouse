@@ -1,0 +1,15 @@
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S02\Exercicios\ex10\bin\Debug\net7.0\ex10.exe
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S02\Exercicios\ex10\bin\Debug\net7.0\ex10.deps.json
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S02\Exercicios\ex10\bin\Debug\net7.0\ex10.runtimeconfig.json
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S02\Exercicios\ex10\bin\Debug\net7.0\ex10.dll
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S02\Exercicios\ex10\bin\Debug\net7.0\ex10.pdb
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S02\Exercicios\ex10\obj\Debug\net7.0\ex10.csproj.AssemblyReference.cache
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S02\Exercicios\ex10\obj\Debug\net7.0\ex10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S02\Exercicios\ex10\obj\Debug\net7.0\ex10.AssemblyInfoInputs.cache
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S02\Exercicios\ex10\obj\Debug\net7.0\ex10.AssemblyInfo.cs
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S02\Exercicios\ex10\obj\Debug\net7.0\ex10.csproj.CoreCompileInputs.cache
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S02\Exercicios\ex10\obj\Debug\net7.0\ex10.dll
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S02\Exercicios\ex10\obj\Debug\net7.0\refint\ex10.dll
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S02\Exercicios\ex10\obj\Debug\net7.0\ex10.pdb
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S02\Exercicios\ex10\obj\Debug\net7.0\ex10.genruntimeconfig.cache
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S02\Exercicios\ex10\obj\Debug\net7.0\ref\ex10.dll
