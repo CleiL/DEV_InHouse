@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nerdin Bank</title>
+    <link rel="stylesheet" href="script.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bc83835f12.js" crossorigin="anonymous"></script>
+    <script src="main.js" async></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo">Nerdin Bank</h1>
+        <nav class="navbar">
+            <ul>
+                <li>nerdin | o banco espacial dos nerds</li>
+            </ul>
+            <button type="button" onclick="mostrarMenu()">seja um nerdin</button>
+        </nav>
+        <div class="form_container">
+            <form id="formulario" class="formulario_cadastro">
+                <fieldset>
+                    <input type="text" placeholder="Nome">
+                    <input type="number" placeholder="CPF">
+                    <input type="number"  placeholder="Celular">
+                    <input type="password" placeholder="Senha">
+                    <input type="password" placeholder="Confirmação de senha">
+                    <input type="submit" placeholder="Enviar">
+                    <input type="reset" placeholder="Limpar formulário">
+                </fieldset>
+            </form>
+        </div>
+    </header>
+    <main class="container_main">
+        <div class="container">
+            <p><span class="text_form1">TAM TAM TAM</span><br>
+                <span class="text_form2">TAAAAAAAAAAM</span><br>
+                <span class="text_form3">TAAAM TANANANAAAAANAAM</span><br>
+                <span class="text_form4">TANANANAAAAM</span><br>
+                <span class="text_form5"> naaam tantam naaaam</span><br>
+                <span class="text_form1">se vc cantou, </span></p> 
+        </div>
+        <div class="btn_container">
+            <button onclick="document.body.classList.toggle('open')" class="btn" type="submit" title="abra sua conta">abra sua conta</button>
+        </div>
+        <form class="formStyle" id="form-cadastro">
+            <h2>Abertura de Conta</h2>
+            <div>
+                <label for="nome">Nome: </label><input placeholder="Digite seu nome" id="nome" required type="text">
+            </div>
+            <div>
+                <label for="cpf">CPF: </label><input id="cpf" placeholder="Digite seu CPF" required type="text">
+            </div>
+            <div>
+                <label for="celular">Celular: </label><input id="celular" placeholder="Digite seu número de telefone" required type="text">
+            </div>
+            <div>
+                <label for="senha">Senha: </label><input id="senha" placeholder="Digite sua senha" required type="password">
+            </div>
+            <div>
+                <label for="confirmacaoSenha">Senha: </label><input id="confirmacaoSenha" placeholder="Confirme sua senha" required type="password">
+            </div>
+            <div>
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+        <form class="formStyle" id="form-operacao">
+            <div class="form-operacao">
+                <h2>Operações</h2>
+                <div>
+                    <label for="conta">Conta: </label><input required id="conta" type="number" placeholder="digite a conta">
+                </div>
+                <div>
+                    <label for="operacao">Operacao</label>
+                    <select name="operacao" id="operacao">
+                        <option value="saque">Saque</option>
+                        <option value="deposito">Deposito</option>
+                        <option value="saldo">consulta saque</option>
+                    </select>
+                    <div>
+                        <label for="valor">Valor: </label><input required id="valor" type="number" placeholder="digite o valor">
+                    </div>
+                    <div>
+                        <label for="senhaOperacao">Senha: </label><input required id="senhaOperacao" type="number" placeholder="digite a senha">
+                    </div>
+                </div>
+                <div>
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Confirmar</button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer class="rodape">
+        <div class="left">
+            <h3>siga o nerdin</h3>
+            <a title="logos" href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a title="logos" href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a title="logos" href="#"><i class="fa-brands fa-twitch"></i></a>
+            <a title="logos" href="#"><i class="fa-brands fa-youtube"></i></a>
+
+        </div>
+        <div class="center">
+            <h3>nerdin bank<span>&copy</span></h3>
+        </div>
+        <div class="right">
+            <h2>Empresa</h2>
+            <ul>
+                <a href="#"><li>What´s nerdin</li></a>
+                <a href="#"><li>sobre a nerdin</li></a>
+                <a href="#"><li>carreira</li></a>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
