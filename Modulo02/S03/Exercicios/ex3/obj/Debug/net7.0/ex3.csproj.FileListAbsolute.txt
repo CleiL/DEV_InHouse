@@ -1,0 +1,15 @@
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S03\Exercicios\ex3\obj\Debug\net7.0\ex3.csproj.AssemblyReference.cache
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S03\Exercicios\ex3\obj\Debug\net7.0\ex3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S03\Exercicios\ex3\obj\Debug\net7.0\ex3.AssemblyInfoInputs.cache
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S03\Exercicios\ex3\obj\Debug\net7.0\ex3.AssemblyInfo.cs
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S03\Exercicios\ex3\obj\Debug\net7.0\ex3.csproj.CoreCompileInputs.cache
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S03\Exercicios\ex3\bin\Debug\net7.0\ex3.exe
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S03\Exercicios\ex3\bin\Debug\net7.0\ex3.deps.json
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S03\Exercicios\ex3\bin\Debug\net7.0\ex3.runtimeconfig.json
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S03\Exercicios\ex3\bin\Debug\net7.0\ex3.dll
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S03\Exercicios\ex3\bin\Debug\net7.0\ex3.pdb
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S03\Exercicios\ex3\obj\Debug\net7.0\ex3.dll
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S03\Exercicios\ex3\obj\Debug\net7.0\refint\ex3.dll
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S03\Exercicios\ex3\obj\Debug\net7.0\ex3.pdb
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S03\Exercicios\ex3\obj\Debug\net7.0\ex3.genruntimeconfig.cache
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S03\Exercicios\ex3\obj\Debug\net7.0\ref\ex3.dll
