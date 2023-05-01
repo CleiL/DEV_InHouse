@@ -1,0 +1,5 @@
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S04\ex7\obj\Debug\net7.0\ex7.csproj.AssemblyReference.cache
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S04\ex7\obj\Debug\net7.0\ex7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S04\ex7\obj\Debug\net7.0\ex7.AssemblyInfoInputs.cache
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S04\ex7\obj\Debug\net7.0\ex7.AssemblyInfo.cs
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S04\ex7\obj\Debug\net7.0\ex7.csproj.CoreCompileInputs.cache
