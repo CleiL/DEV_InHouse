@@ -1,0 +1,15 @@
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S05\BancoFullStackBank\NerdinBank\NerdinBank\obj\Debug\net6.0\NerdinBank.csproj.AssemblyReference.cache
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S05\BancoFullStackBank\NerdinBank\NerdinBank\obj\Debug\net6.0\NerdinBank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S05\BancoFullStackBank\NerdinBank\NerdinBank\obj\Debug\net6.0\NerdinBank.AssemblyInfoInputs.cache
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S05\BancoFullStackBank\NerdinBank\NerdinBank\obj\Debug\net6.0\NerdinBank.AssemblyInfo.cs
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S05\BancoFullStackBank\NerdinBank\NerdinBank\obj\Debug\net6.0\NerdinBank.csproj.CoreCompileInputs.cache
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S05\BancoFullStackBank\NerdinBank\NerdinBank\bin\Debug\net6.0\NerdinBank.exe
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S05\BancoFullStackBank\NerdinBank\NerdinBank\bin\Debug\net6.0\NerdinBank.deps.json
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S05\BancoFullStackBank\NerdinBank\NerdinBank\bin\Debug\net6.0\NerdinBank.runtimeconfig.json
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S05\BancoFullStackBank\NerdinBank\NerdinBank\bin\Debug\net6.0\NerdinBank.dll
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S05\BancoFullStackBank\NerdinBank\NerdinBank\bin\Debug\net6.0\NerdinBank.pdb
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S05\BancoFullStackBank\NerdinBank\NerdinBank\obj\Debug\net6.0\NerdinBank.dll
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S05\BancoFullStackBank\NerdinBank\NerdinBank\obj\Debug\net6.0\refint\NerdinBank.dll
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S05\BancoFullStackBank\NerdinBank\NerdinBank\obj\Debug\net6.0\NerdinBank.pdb
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S05\BancoFullStackBank\NerdinBank\NerdinBank\obj\Debug\net6.0\NerdinBank.genruntimeconfig.cache
+C:\Users\cleil\OneDrive\Senai\DevInHouse\Modulos\Modulo02\S05\BancoFullStackBank\NerdinBank\NerdinBank\obj\Debug\net6.0\ref\NerdinBank.dll
