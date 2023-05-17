@@ -1,6 +1,7 @@
 ﻿namespace NerdinBank.Classes
 {
     internal class Poupanca : Conta
+        // Poupanca herda Conta - HERANÇA
     {
         public int Aniversario { get; private set; }
         public Poupanca(string agencia, string numero, int aniversario) : base(agencia, numero)
